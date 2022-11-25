@@ -1,0 +1,8 @@
+<?php 
+		for( $i = 0 ; $i < count($poolName) ; $i++  ){
+echo $poolName[$i]['poolName']."<br>";
+			setMatch( $pools[$i] , connect() );
+			echo '<br>';
+		}
+
+	?>
